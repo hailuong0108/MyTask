@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/idDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#A89F9F"
+        android:backgroundTint="#A69292"
+        android:clickable="true"
+        android:foregroundTint="#875C5C">
+
+    </DatePicker>
+  <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back"
+
+
+        android:divider="@android:color/holo_green_dark"
+        android:paddingTop="5dp"
+        android:persistentDrawingCache="all|scrolling|animation"
+        android:scrollbarThumbHorizontal="@drawable/ic_launcher_background"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:scrollbarTrackHorizontal="@color/cardview_shadow_start_color"
+        android:scrollbarTrackVertical="@drawable/ic_launcher_background"
+        android:soundEffectsEnabled="false"
+        android:splitMotionEvents="false">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/set_time" />
+
+        <TextView
+            android:id="@+id/tvHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:clickable="true"
+            android:onClick="setTime"
+            android:text="Set time" />
+
+        <ImageView
+            android:id="@+id/btnCancel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cancel" />
+    </LinearLayout>
+  </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/back"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/reminder" />
+
+        <TextView
+            android:id="@+id/tvReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:bufferType="normal"
+            android:text="Set reminder" />
+
+        <ImageView
+            android:id="@+id/btnCancel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cancel" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:text="Save"
+            android:textColor="#2196F3"
+            android:background="#11FFFBFB"
+            android:id="@+id/btnSave"></Button>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_toLeftOf="@id/btnSave"
+            android:background="#11FFFBFB"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idItemAdd"
+        android:title="Add workspace"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/idSetting"
+        android:title="Setting"
+        android:icon="@drawable/setting"/>
+</menu>

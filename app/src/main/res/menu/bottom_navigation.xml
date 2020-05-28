@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/itemPriority"
+        android:iconTint="#AC2D2D"
+        android:orderInCategory="100"
+        android:titleCondensed="@drawable/botronshape"
+        android:title="Priority">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+
+
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/itemSelectdevice"
+        android:icon="@drawable/open_foder"
+        android:title="" />
+    <item
+        android:id="@+id/itemNode"
+        android:icon="@drawable/note"
+        android:title="" />
+</menu>

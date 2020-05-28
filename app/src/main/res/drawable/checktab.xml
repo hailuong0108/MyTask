@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<selector xmlns:android = "http://schemas.android.com/apk/res/android">
+<item  android:color = "#D81B60"  android:state_checked = "true"
+
+    >
+    <shape
+        android:shape="rectangle"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+        <!-- Set màu nền-->
+        <!--    <solid-->
+        <!--        android:color="@color/colorPrimaryDark" >-->
+        <!--    </solid>-->
+
+        <!-- đặt thuộc tính màu và độ rộng của đường viền -->
+        <stroke
+            android:width="12dp"
+            android:color="@color/colorPrimaryDark" >
+        </stroke>
+
+        <!-- các thuộc tính căn chỉnh-->
+        <padding
+            android:left="16dp"
+            android:top="16dp"
+            android:right="16dp"
+            android:bottom="16dp" >
+        </padding>
+
+        <!-- và đây là bán kính đường tròn ở 4 góc -->
+        <corners
+            android:radius="360dp" >
+        </corners>
+
+    </shape>
+
+</item>
+<item  android:color = "#009688">
+    <shape
+        android:shape="rectangle"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+        <!-- Set màu nền-->
+        <!--    <solid-->
+        <!--        android:color="@color/colorPrimaryDark" >-->
+        <!--    </solid>-->
+
+        <!-- đặt thuộc tính màu và độ rộng của đường viền -->
+        <stroke
+            android:width="12dp"
+            android:color="@color/colorPrimaryDark" >
+        </stroke>
+
+        <!-- các thuộc tính căn chỉnh-->
+        <padding
+            android:left="16dp"
+            android:top="16dp"
+            android:right="16dp"
+            android:bottom="16dp" >
+        </padding>
+
+        <!-- và đây là bán kính đường tròn ở 4 góc -->
+        <corners
+            android:radius="360dp" >
+        </corners>
+
+    </shape>
+</item>
+</selector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idItemSort"
+        android:title="Sort"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sort"/>
+    <item
+        android:id="@+id/idItemSkin"
+        android:title="Skin" />
+    <item
+        android:id="@+id/idrename"
+        android:title="Rename" />
+    <item
+        android:id="@+id/idItemDelete"
+        android:title="Delete" />
+</menu>
